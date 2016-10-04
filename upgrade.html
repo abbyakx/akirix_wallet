@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Akirix Wallet</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <link rel="stylesheet" href="/bower_components/material-design-lite/material.min.css">
+    <script src="/bower_components/material-design-lite/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+</head>
+<body>
+
+
+<div class="mdl-layout mdl-js-layout">
+
+    <main class="mdl-layout__content"
+          style=" display:flex; flex-direction: row; justify-content: center;">
+        <div class="sub-container" style=" flex-direction: column; justify-content: center; text-align: center">
+
+
+            <h4>New User</h4>
+
+            <img src="img/user-img.png" style="margin: auto">
+
+            <div class="mdl-grid">
+                <div class="mdl-layout-spacer"></div>
+                <div class="mdl-cell mdl-cell--4-col" style="border: 1px solid #d3d3d3;">
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="first_name" value="New" readonly>
+
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="last_name" value="User" readonly>
+
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="phone" value="(555)-555-5555">
+                            <label class="mdl-textfield__label" for="phone"></label>
+
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="address">
+                            <label class="mdl-textfield__label" for="address">Address</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="address2">
+                            <label class="mdl-textfield__label" for="address2">Apt number</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="city">
+                            <label class="mdl-textfield__label" for="city">City</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="state">
+                            <label class="mdl-textfield__label" for="state">State</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="number" id="postal">
+                            <label class="mdl-textfield__label" for="postal">Postal Code</label>
+                        </div>
+
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="country">
+                            <label class="mdl-textfield__label" for="country">Country</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="dob">
+                            <label class="mdl-textfield__label" for="dob">Date of Birth</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="nubmer" id="ssn">
+                            <label class="mdl-textfield__label" for="ssn">Social Security Number</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="mdl-layout-spacer"></div>
+            </div>
+
+            <div class="actions">
+                <a href="dashboard.html">
+                    <button class="mdl-button mdl-js-button">
+                        Cancel
+                    </button>
+                </a>
+                <a href="credit-card.html">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+                        Next
+                    </button>
+                </a>
+            </div>
+
+        </div>
+
+    </main>
+</div>
+</body>
+</html>
